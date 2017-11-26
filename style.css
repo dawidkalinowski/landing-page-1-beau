@@ -8,7 +8,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-
 }
 
 .container {
@@ -36,7 +35,8 @@ body {
 	margin: 190px auto;
 	float: left;
 	width: 50%;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display',
+	serif;
 
 }
 
@@ -92,7 +92,7 @@ body {
 	}
 
 	.images {
-		padding: 5px;
+
 		margin-top: 90px;
 	}
 }
@@ -103,6 +103,21 @@ body {
 	}
 	.about {
 		margin: 0;
+	}
+	.buttons {
+		margin: 20px auto;
+		padding: 0;
+
+	}
+	.buttons button {
+		margin: 0 auto;
+		padding: 10px 30px;
+		margin-bottom: 5px;
+
+	}
+	.images {
+		margin: 20px auto;
+		padding-top: 70px;
 	}
 }
 
